@@ -4,9 +4,7 @@ mongoose.set("debug", true);
 reuire("dotenv").config();
 
 // Define the MongoDB connection URL
-
 //const mongoURL = process.env.MONGODB_URL_LOCAL;
-//const mongoURL = "mongodb+srv://pushplata:<db_password>@cluster0.7s2fc.mongodb.net/"
 
 const mongoURL = process.env.MONGODB_URL;
 // Set up MongoDB connection
