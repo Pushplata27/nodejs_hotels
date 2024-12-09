@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.set("debug", true);
-reuire("dotenv").config();
+require("dotenv").config();
 
 // Define the MongoDB connection URL
 //const mongoURL = process.env.MONGODB_URL_LOCAL;
